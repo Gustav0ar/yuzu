@@ -60,6 +60,7 @@ else()
         -Wmissing-declarations
         -Wno-attributes
         -Wno-unused-parameter
+	-mcx16
     )
 
     if (APPLE AND CMAKE_CXX_COMPILER_ID STREQUAL Clang)
